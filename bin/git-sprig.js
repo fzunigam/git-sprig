@@ -8,6 +8,12 @@ const fs = require('fs');
 
 const url = process.argv[2];
 
+if (url === '--version' || url === '-v') {
+  const { version } = require('../package.json');
+  console.log(`git-sprig v${version}`);
+  process.exit(0);
+}
+
 if (!url || url === '--help' || url === '-h') {
   console.log('Usage: git sprig <github-permalink>');
   console.log('');

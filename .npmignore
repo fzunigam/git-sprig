@@ -1,0 +1,5 @@
+# Files excluded from the npm package
+.gitignore
+context.md
+CHANGELOG.md
+.github/
