@@ -1,0 +1,17 @@
+{
+  "name": "git-sprig",
+  "version": "1.0.0",
+  "description": "Clone a single folder from a GitHub repository using a permalink",
+  "bin": {
+    "git-sprig": "./bin/git-sprig.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": ["git", "clone", "sparse-checkout", "folder", "github"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fzunigam/git-sprig.git"
+  }
+}
