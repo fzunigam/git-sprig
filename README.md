@@ -3,7 +3,7 @@
 Clone a single folder from a GitHub repository — without downloading the whole thing.
 
 ```sh
-git sprig https://github.com/anthropics/anthropic-cookbook/tree/main/skills
+https://github.com/{owner}/{repo}/tree/{branch-or-commit}/{path/to/folder}
 ```
 
 ## Why?
